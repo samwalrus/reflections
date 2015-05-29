@@ -6,3 +6,24 @@ Git make a hidden file, that will contain the info for versions.
 How is the staging area differnt from the working directory and the repository? what value do you think it offers?
 
 It is a place inbetween, it allows you to think about what files are to be together in a commit?
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+You can use it to collect multiple files together that have changed. But together make one logical change.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Branches will allow you to split your project, so that you can have differnt concurrent versions. 
+
+
+How do the diagrams help you visualize the branch structure?
+
+They help me see which commits are reachable from which branch.
+
+What is the result of merging two branches together? Why do we represent it in the the diagram the way we do?
+
+The results is a file that has all the changes from two branches in one branch and an updated master head. The diagram represets this.
+
+What are the pros and cons og Git's automatic merging vs. always doing merges manually?
+
+Well the automatic merging might speed things up, but it might also beconfusing and not be able to make sense of things when you move code around
